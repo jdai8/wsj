@@ -1,3 +1,4 @@
 ## free-wsj
-Chrome extension thats sets `referer` header to `https://facebook.com`
-to bypass WSJ paywall.
+A chrome extension that sets the `referer` header to `https://facebook.com`
+and removes `cookie` headers
+in order to bypass the WSJ paywall.
