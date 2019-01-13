@@ -1,15 +1,21 @@
 {
-    "name": "free-wsj",
-    "description": "bypass wsj paywall",
-    "version": "1.1",
-    "manifest_version": 2,
-    "background": {
-        "scripts": ["background.js"],
-        "persistent": true
-    },
-    "permissions": [
-        "webRequest",
-        "webRequestBlocking",
-        "*://*.wsj.com/*"
-    ]
+  "name": "free-wsj",
+  "description": "bypass wsj paywall",
+  "version": "1.2",
+  "manifest_version": 2,
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": true
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.wsj.com/*"],
+      "css": ["hide_popup.css"]
+    }
+  ],
+  "permissions": [
+    "webRequest",
+    "webRequestBlocking",
+    "*://*.wsj.com/*"
+  ]
 }
