@@ -1,7 +1,7 @@
 {
   "name": "free-wsj",
-  "description": "Bypass the WSJ paywall",
-  "version": "1.2",
+  "description": "Test",
+  "version": "1.2.1",
   "manifest_version": 2,
   "background": {
     "scripts": ["background.js"],
