@@ -1,4 +1,4 @@
-__This extension doesn't work anymore (as of writing).__
+__WSJ seems to change their website behavior often. So this extension might not work.__
 
 ## free-wsj
 
